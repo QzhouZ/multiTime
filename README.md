@@ -2,7 +2,7 @@
 多功能时间插件，包括计时、倒计时、日期设定、日期差、转时间搓等功能。
 
 ### 使用方法
-	seajs.use("custom/multiTime", function(time) {
+	seajs.use("multiTime", function(time) {
 
         // 倒计时
         var t = time.timer('#t1', {
